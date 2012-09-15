@@ -1,7 +1,7 @@
 PHP Jira SOAP Class
 ===================
 This class allows interaction with
-JIRA bug tracker through SOAP API
+JIRA bug tracker through JiraSoapService rpc-jira-plugin v4.4
 
 Example
 -------
