@@ -1,5 +1,5 @@
-Jira SOAP Class
-===============
+PHP Jira SOAP Class
+===================
 This class allows interaction with
 JIRA bug tracker through SOAP API
 
@@ -15,7 +15,7 @@ Example
     $jira  = new Jirasoap($username, $password, $endpoint);
     
 	// Get an issue from key
-	$issue = $jira->get_issue('REQNEG-306');
+	$issue = $jira->get_issue('KEY-306');
     
     // Create a new issue
 	$new = array(

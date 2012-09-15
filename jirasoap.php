@@ -27,7 +27,7 @@
  * Jira SOAP Class
  *
  * This class allows interaction with
- * JIRA bug tracker through SOAP API
+ * JIRA bug tracker through SOAP API v4.4
  *
  * For more information on this class usage visit:
  *
