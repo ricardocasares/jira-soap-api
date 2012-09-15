@@ -12,7 +12,7 @@ Example
     $password = 'password';
     $endpoint = 'http://localhost:8080/rpc/soap/jirasoapservice-v2?wsdl';
 
-    $jira  = new Jsoap($username, $password, $endpoint);
+    $jira  = new Jirasoap($username, $password, $endpoint);
     
 	// Get an issue from key
 	$issue = $jira->get_issue('REQNEG-306');
